@@ -1,0 +1,33 @@
+###
+#
+# Post a post
+#
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{"title": "Test 3"}
+
+###
+#
+# Get all posts
+#
+GET http://localhost:4000/posts
+Content-Type: application/json
+  # &$select=title,stock
+  # &$expand=currency
+  # &sap-language=de
+
+###
+#
+# Post a comment
+#
+POST http://localhost:4001/posts/8802e46f/comments
+Content-Type: application/json
+
+{ "content": "Ola" }
+###
+#
+# Get all posts comments
+#
+GET http://localhost:4001/posts/123/comments
+Content-Type: application/json
