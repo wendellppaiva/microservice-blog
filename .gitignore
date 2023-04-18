@@ -1,0 +1,8 @@
+backend/comments/package-lock.json
+backend/comments/node_modules/*
+
+backend/posts/package-lock.json
+backend/posts/node_modules/*
+
+frontend/client/package-lock.json
+frontend/client/node_modules/*
