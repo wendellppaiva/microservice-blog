@@ -7,5 +7,8 @@ backend/posts/node_modules/*
 backend/event-bus/package-lock.json
 backend/event-bus/node_modules/*
 
+backend/query/package-lock.json
+backend/query/node_modules/*
+
 frontend/client/package-lock.json
 frontend/client/node_modules/*
