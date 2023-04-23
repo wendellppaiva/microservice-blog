@@ -10,5 +10,9 @@ backend/event-bus/node_modules/*
 backend/query/package-lock.json
 backend/query/node_modules/*
 
+backend/moderation/package-lock.json
+backend/moderation/node_modules/*
+
+
 frontend/client/package-lock.json
 frontend/client/node_modules/*
